@@ -13,8 +13,14 @@ export const App = () => {
     <>
       <Section>
         <Profile profile={user} />
-        <Statistics title="Upload stats" statistics={data} />
-        <FriendList friends={friends} />
+        </Section>
+        <Section>
+          <Statistics title="Upload stats" statistics={data} />
+        </Section>
+        <Section>
+          <FriendList friends={friends} />
+        </Section>
+        <Section>
         <TransactionHistory items={transactions} />
       </Section>
     </>  
