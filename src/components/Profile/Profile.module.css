@@ -1,63 +1,63 @@
-.profile{
-    background-color: rgb(243, 241, 241);
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.profile {
+  background-color: rgb(243, 241, 241);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.description{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
-.avatar{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
-.name{
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
+.name {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
-.tag{
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    color: gray;
+.tag {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: gray;
 }
-.location{
-    font-size: 25px;
-    font-weight: 450;
-    color: gray;
+.location {
+  font-size: 25px;
+  font-weight: 450;
+  color: gray;
 }
-.stats{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 70px;
-    height: 70px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
-.item:not(:last-child){
-    margin-right: 30px;
+.item:not(:last-child) {
+  margin-right: 30px;
 }
-.label{
-    font-size: 17px;
-    color: gray;
+.label {
+  font-size: 17px;
+  color: gray;
 }
-.quantity{
-    font-size: 20px;
-    font-weight: 600;
+.quantity {
+  font-size: 20px;
+  font-weight: 600;
 }
